@@ -1,0 +1,38 @@
+1. preprocessing {
+    - which lib was used for what in very short.
+    - mp_holistic model to capture hands.
+    - mp_plotting to show what is captured.
+    - extracting the landmarks and connections for face, left hand, right hand and storing them in order to use them.
+    - 1662 total landmarks out of which we are using 21 for lhs hand and 21 for rhs hand and 468 for face.
+    - setting up folders and capturing data using cv2.
+    - note you have to mention each sign has 30 videos and each video is 30fps and each frame is converted into a npy file so there are 30 npz files for one video capturing the positions and data of all 21 for lhs and 21 for rhs at each frame in the video.
+    - converting videos in form of npy.
+    - train test split.
+    - label map to store the actions done.
+    - creating a sequence of 30.
+} 
+
+
+DONE IN PAPER
+
+2. model architecture {
+	
+}
+3. model training {
+
+}
+4. experimentation {
+
+}
+5. quantitative analysis {
+
+}
+6. qualitative analysis {
+
+}
+7. model results {
+
+}
+8. conclusion and future scope {
+    
+}
