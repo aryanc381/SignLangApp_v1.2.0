@@ -41,7 +41,6 @@ def correct_grammar_with_deepseek(text):
         print("Connection failed:", e)
         return None
 
-# 🔁 Loop for continuous correction
 while True:
     user_input = input("\n✍️ Enter a sentence to correct (or type 'q' to quit):\n> ")
     if user_input.lower() == 'q':
