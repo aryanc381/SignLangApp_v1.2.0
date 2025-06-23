@@ -114,9 +114,9 @@ cv2.destroyAllWindows()
 
 # Final output
 final_sentence = ' '.join(detected_words)
-print("\n✅ Final Detected Words List:")
+print("\nFinal Detected Words List:")
 print(detected_words)
-print("\n📝 Final Sentence:")
+print("\nFinal Sentence:")
 print(final_sentence)
 
 # Text-to-speech function
